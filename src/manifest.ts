@@ -7,7 +7,10 @@ export default defineManifest({
   description: 'AI-assisted form filling with a privacy-first approach.',
   action: {
     default_popup: 'src/popup/index.html',
+    default_icon: 'favicon.svg',
   },
-
+  icons: {
+    '48': 'favicon.svg',
+  },
   permissions: ['activeTab', 'storage', 'scripting'],
 });
