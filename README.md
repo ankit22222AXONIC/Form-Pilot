@@ -113,8 +113,6 @@ To delete your stored API key at any time, go to **Settings** and click **Remove
 | **Webpage Form Metadata** | Transient RAM in popup/tab | Plaintext | **Yes.** Field labels, names, and structural IDs are sent to the configured AI provider. |
 | **User Personal Values** | Active Tab DOM | Populated only upon explicit user approval | Injected into the target page DOM as normal form input. |
 
-For detailed information flow diagrams and threat models, see [PRIVACY.md](./PRIVACY.md), [FORMPILOT_DATA_LEAK_MAP.md](./FORMPILOT_DATA_LEAK_MAP.md), and [FORMPILOT_RED_TEAM_REPORT.md](./FORMPILOT_RED_TEAM_REPORT.md).
-
 ---
 
 ## Security Limitations
